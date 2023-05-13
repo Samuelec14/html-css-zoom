@@ -8,17 +8,53 @@
 
 /* GENERAL 
 */
-body{
-        font-family: Arial, Helvetica, sans-serif;
+    body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    footer{
+        height: 60px;
     }
+    .container{
+        max-width: 90vw;
+        margin: auto;
+    }
+    .my-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+/* MAIN 
+*/
+    /* <!--HEADING BUTTONS SECTION-->
+    */
+        main section[class="top-buttons"]{
+            margin-bottom: 40px;
+            width: 100%;
+            text-align: end;
+        }
+        main section[class="top-buttons"] span{
+            display: inline-block;
+        }
+
+
+    /* <!-- USERS CAMERAS SECTION -->
+    */
+    
 
     main{
-        height: calc(100vh - 100px);
+        height: calc(100vh - 60px);
     }
-    footer{
-        height: 100px;
+    main section div .column-1-7{
+        width: calc((100% / 7) - 2px);
+        margin: 0px 1px 7px 1px;
     }
-
+    main section .my-row{
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+    
 /* DEBUG 
 */
     .debug main{
@@ -26,4 +62,17 @@ body{
     }
     .debug footer{
         background-color: aliceblue;
+    }
+    .debug .container div{
+        background-color: aqua;
+        height: 500px;
+    }
+    .debug main .top-buttons{
+        background-color: green;
+        height: 15px;
+    }
+    .debug main section div .column-1-7{
+        background-color: blue;
+        height: 140px;
+        border: 1px dashed pink;
     }
