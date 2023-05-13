@@ -8,6 +8,22 @@
 
 /* GENERAL 
 */
-    *{
-        font-family: ...;
+body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main{
+        height: calc(100vh - 100px);
+    }
+    footer{
+        height: 100px;
+    }
+
+/* DEBUG 
+*/
+    .debug main{
+        background-color: lightcoral;
+    }
+    .debug footer{
+        background-color: aliceblue;
     }
