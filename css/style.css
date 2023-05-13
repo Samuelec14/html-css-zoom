@@ -41,7 +41,11 @@
 
     /* <!-- USERS CAMERAS SECTION -->
     */
-    
+        main section .container .my-row .column-1-7 .user-info{
+            display:inline-block;
+            position: absolute;
+            bottom: 1px;
+        }
 
     main{
         height: calc(100vh - 60px);
@@ -49,6 +53,7 @@
     main section div .column-1-7{
         width: calc((100% / 7) - 2px);
         margin: 0px 1px 7px 1px;
+        position: relative;
     }
     main section .my-row{
         margin-left: -1px;
@@ -63,7 +68,7 @@
     .debug footer{
         background-color: aliceblue;
     }
-    .debug .container div{
+    .debug .container .my-row{
         background-color: aqua;
         height: 500px;
     }
