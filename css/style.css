@@ -78,16 +78,16 @@
         background-color: #000000;
     }
     main section div .column-1-7{
-        width: calc((100% / 7) - 2px);
+        width: calc((100% / 7) - 4px);
         height: 150px;
-        margin: 0px 1px 7px 1px;
+        margin: 0px 2px 9px 2px;
         position: relative;
         background-image:url(https://tuberfan.com/sito/wp-content/uploads/2020/02/Synergo-Sanremo-1024x472.jpg) ;
         background-size: cover;
     }
     main section .my-row{
-        margin-left: -1px;
-        margin-right: -1px;
+        margin-left: -2px;
+        margin-right: -2px;
     }
 /* FOOTER  
 */
