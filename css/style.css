@@ -41,12 +41,25 @@
     /* <!--HEADING BUTTONS SECTION-->
     */
         main section[class="top-buttons"]{
-            margin-bottom: 40px;
             width: 100%;
             text-align: end;
+            margin-bottom: 2%;
         }
         main section[class="top-buttons"] span{
             display: inline-block;
+        }
+        main section{
+            background-color: #000000;
+        }
+        main .top-buttons span{
+            background-color: rgb(99, 99, 99);
+            padding: 4px 7px;
+            border-radius: 4px;
+            margin-top: 4px;
+            margin-right: 4px;
+        }
+        main .top-buttons span i{
+            font-size: 0.8em;
         }
 
 
@@ -76,11 +89,15 @@
         margin-left: -1px;
         margin-right: -1px;
     }
-
 /* FOOTER  
 */
     footer{
         background-color: rgb(34, 34, 34);
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
     }
     footer .my-row{
         justify-content: space-between;
@@ -140,9 +157,9 @@
     /* .debug .container .my-row{
         background-color: aqua;
     } */
-    .debug main .top-buttons{
+    /* .debug main .top-buttons{
         background-color: green;
-    }
+    } */
     /* .debug main section div .column-1-7{
         background-color: blue;
         border: 1px dashed black;
